@@ -1,0 +1,28 @@
+# Streamlit 配置文件 - 優化設定
+
+[server]
+# 設置最大上傳大小（MB）
+maxUploadSize = 10
+
+# 啟用文件監視器（開發時使用）
+fileWatcherType = "auto"
+
+# 設置端口
+port = 8501
+
+[browser]
+# 自動開啟瀏覽器
+gatherUsageStats = false
+
+[theme]
+# 主題配置
+primaryColor = "#1f77b4"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f0f2f6"
+textColor = "#262730"
+font = "sans serif"
+
+[runner]
+# 優化執行性能
+magicEnabled = true
+fastReruns = true

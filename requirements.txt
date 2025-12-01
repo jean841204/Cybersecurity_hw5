@@ -1,0 +1,23 @@
+# Streamlit 框架
+streamlit>=1.28.0
+
+# 機器學習與 NLP
+transformers>=4.35.0
+torch>=2.0.0
+sentencepiece>=0.1.99
+
+# 文本處理
+nltk>=3.8
+textstat>=0.7.3
+
+# 數據處理
+pandas>=2.0.0
+numpy>=1.24.0
+
+# 視覺化
+plotly>=5.17.0
+matplotlib>=3.7.0
+
+# 工具
+tqdm>=4.66.0
+python-docx>=1.0.0

@@ -1,0 +1,66 @@
+# AI 文本檢測器 - 測試範例
+
+## 範例 1: 典型的 AI 生成文本（ChatGPT 風格）
+
+Artificial intelligence has revolutionized numerous industries in recent years. Moreover, it continues to evolve at an unprecedented pace, bringing forth new opportunities and challenges. Furthermore, the implications of this technology are far-reaching and multifaceted. Additionally, researchers are constantly developing innovative applications that push the boundaries of what is possible. Consequently, organizations must adapt to these changes to remain competitive in the modern landscape.
+
+預期結果：AI 機率 > 80%
+
+---
+
+## 範例 2: 人類日常寫作
+
+hey so i went to the store yesterday lol. got some milk and eggs but totally forgot the bread smh. the cashier was super nice tho, she gave me a coupon! gonna go back tomorrow probably. weather's been weird lately right? anyway gotta go, talk later!
+
+預期結果：AI 機率 < 30%
+
+---
+
+## 範例 3: 學術風格（可能是 AI）
+
+The implementation of machine learning algorithms requires careful consideration of various parameters. The accuracy of the model depends significantly on the quality of the training data. Subsequently, preprocessing techniques play a crucial role in optimizing performance. It is essential to evaluate multiple metrics to ensure comprehensive assessment.
+
+預期結果：AI 機率 60-80%
+
+---
+
+## 範例 4: 新聞報導風格
+
+Breaking news: The tech company announced quarterly earnings today. CEO stated the numbers exceeded expectations. Stock prices rose 5% in after-hours trading. Analysts remain cautiously optimistic about future growth.
+
+預期結果：AI 機率 40-60%（中性）
+
+---
+
+## 範例 5: 明顯的人類創意寫作
+
+The rain hammered against my window. I couldn't sleep. Again.
+Coffee at 3 AM? Why not.
+My cat judged me from the doorway, as cats do.
+Tomorrow's presentation? Yeah... I'll wing it.
+
+預期結果：AI 機率 < 25%
+
+---
+
+## 範例 6: 技術文檔（混合風格）
+
+To install the package, run: pip install transformers
+Then import it in your code: from transformers import pipeline
+The model will be downloaded automatically on first use.
+Note: requires Python 3.8+
+
+預期結果：AI 機率 30-50%
+
+---
+
+## 使用方法：
+1. 複製上述任一範例
+2. 貼上到檢測器中
+3. 點擊「開始檢測」
+4. 查看結果是否符合預期
+
+## 注意：
+- 這些範例僅供測試參考
+- 實際結果可能因模型版本而異
+- 建議測試多個範例以了解模型特性
