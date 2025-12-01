@@ -2,6 +2,14 @@
 
 使用 Streamlit 和預訓練模型開發的 AI 文本檢測應用，能夠辨識文字內容是否由 AI 生成。
 
+## 🌐 線上 Demo
+
+**立即體驗：** [https://cybersecurityhw5-jean.streamlit.app/](https://cybersecurityhw5-jean.streamlit.app/)
+
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://cybersecurityhw5-jean.streamlit.app/)
+
+> 💡 提示：首次使用需要下載模型（約 500MB），請耐心等待 1-2 分鐘
+
 ## 📋 專案簡介
 
 本專案是中興大學資訊安全課程作業，參考 [JustDone AI Detector](https://justdone.com/ai-detector) 的功能，實作一個能夠檢測文本是否由 ChatGPT、Claude 等 AI 工具生成的應用程式。
